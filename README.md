@@ -2,6 +2,7 @@
 基于python3开发的一款CVE监控工具，需要开启网易邮箱SMTP服务获得授权码(方法请自行百度)，需要安装lxml模块
 # 使用方法
 1.源代码中配置好SMTP服务相关参数
+
 mail_user = "xxxxxxxxx@163.com"   # 用户名
 mail_pass = "xxxxxxxxx"           # 授权密码，非登录密码
 sender = 'xxxxxxxxx@163.com'      # 发件人邮箱(最好写全, 不然会失败)
