@@ -12,14 +12,18 @@ sender = 'xxxxxxxxx@163.com'      # 发件人邮箱(最好写全, 不然会失�
 receivers = ['xxxxxxxxx@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
 2.安装lxml
+
 pip3 install lxml
 
 3.运行
+
 python3 CVE_Finder.py
 
 # Linux添加自动任务
 1.打开crontab文件
+
 vim /etc/crontab
 
 2.添加每天23点自动执行脚本
+
 0 3 * * * root python3 CVE_Finder.py # 注意前面可能需要添加任务编号
